@@ -1,10 +1,15 @@
 const router = require('express').Router();
 
-const userRoutes = require('./userRoutes');
-const postRoutes = require('./postRoutes');
+const apiRoutes = require('./api');
+const homeRoutes = require('./homeRoutes');
 
+//html routes -is all views - all handlebars
 
-router.use('/users', userRoutes);
-router.use('/posts', postRoutes);
+//http://localhost:3001/
+router.use('/', homeRoutes);
+
+//api routes
+
+router.use('/api', apiRoutes);
 
 module.exports = router;
