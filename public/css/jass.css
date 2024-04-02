@@ -420,12 +420,12 @@
   }
   
   a {
-    color: #1b89bc;
+    color: darkorange;
     text-decoration: none;
   }
   
   a:hover {
-    color: #065b83;
+    color: yellow;
     text-decoration: underline;
   }
   
@@ -1009,21 +1009,21 @@
   }
   
   .btn.btn-primary {
-    background-color: #2d3e50;
-    color: #d9e9e8;
+    background-color: orange;
+    color: black;
   }
   
   .btn.btn-primary:hover {
-    background-color: #57779a;
+    background-color: yellow;
   }
   
   .btn.btn-danger {
-    background-color: #e64c66;
+    background-color: black;
     color: #ffffff;
   }
   
   .btn.btn-danger:hover {
-    background-color: #ee8294;
+    background-color: gray;
   }
   
   .btn.btn-info {

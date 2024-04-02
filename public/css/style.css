@@ -1,5 +1,10 @@
 header, .project:not(:last-child) {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 5px solid yellow;
+    background-color: black;
+  }
+  
+  body {
+    background-image: linear-gradient(to right, white, darkorange);
   }
   
   .no-button {
@@ -7,13 +12,13 @@ header, .project:not(:last-child) {
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #1b89bc;
+    color: orange;
     text-decoration: none;
     font-size: 100%;
   }
   
   .no-button:hover {
-    color: #065b83;
+    color: yellow;
     text-decoration: underline;
   }
   
